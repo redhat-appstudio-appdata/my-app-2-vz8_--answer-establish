@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-bhkz
+  namespace: marialeonova-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:7d123efe2fb8f3b93e60711f1c3dbc0538d8ea1d4af7a03c86c1f3d23bc709cb
+        name: container-image
+        resources: {}
+status: {}
