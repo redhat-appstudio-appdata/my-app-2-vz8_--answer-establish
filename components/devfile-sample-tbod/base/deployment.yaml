@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tbod
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:marialeonova-tenant-devfile-sample-tbod
+      - image: quay.io/redhat-appstudio/user-workload@sha256:78eb1bd61a7a3dfb7ca5b5a02f0bae6f0f73eb06c7bf643c91f523690bf66b61
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
