@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dehv
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:marialeonova-tenant-devfile-sample-dehv
+      - image: quay.io/redhat-appstudio/user-workload@sha256:329e7e81f1ec6408930099666b06a3afbeacf62a4dab58e6a368c14a41c5d1e2
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
