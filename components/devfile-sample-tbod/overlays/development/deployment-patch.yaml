@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-tbod
+  namespace: marialeonova-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:78eb1bd61a7a3dfb7ca5b5a02f0bae6f0f73eb06c7bf643c91f523690bf66b61
+        name: container-image
+        resources: {}
+status: {}
