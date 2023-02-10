@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:marialeonova-tenant-devfile-sample-code-with-quarkus-zkg4
+      - image: quay.io/redhat-appstudio/user-workload@sha256:0bc5efc0414a1cfff95498da74b5063cde6f55bc4c5ab3c161a58a0e6dd8c8c6
         name: container-image
         resources: {}
 status: {}
